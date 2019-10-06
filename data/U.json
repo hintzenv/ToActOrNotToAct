@@ -1,0 +1,47 @@
+[
+    {
+        "body": "--------- Inline attachment follows ---------From:  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=KHYATT>To:  rbaker2@enron.com Date: Friday, February 15, 2002 5:34:59 GMTSubject: Per our conversation today, when you folks get a chance, I need someone to verify the current pressure of the Gomez lateral and do a linepack calculation for me.  We are evaluating a potential sale of the lateral and need to know how much sweet gas is in the system.  Please let me know if an answer by Friday 2/22 is not possible.thanks for the helpKevin HyattDirector, Asset Development713-853-5559",
+        "mid": 1902,
+        "subject": "Undeliverable: Gomez lateral"
+    },
+    {
+        "body": "--------- Inline attachment follows ---------From:  </O=ENRON/OU=NA/CN=RECIPIENTS/CN=SPANUS>To: <sanforchuckie@aol.com> <??S<sanforchuckie@aol.com>>, <trajjen@yahoo.com> <??S<trajjen@yahoo.com>>CC: <mr1drfl@swbell.net> <??S<mr1drfl@swbell.net>>Date: Thursday, October 18, 2001 1:21:42 GMTSubject: Attached is a list of the funeral and other related expenses. <<Mom s expenses.doc>>Stephanie PanusSenior Legal SpecialistEnron Wholesale Services1400 Smith Street, EB3803CHouston, Texas  77002ph:  713.345.3249fax:  713.646.3490email:  stephanie.panus@enron.com**********************************************************************This e-mail is the property of Enron Corp. and/or its relevant affiliate and may contain confidential and privileged material for the sole use of the intended recipient (s). Any review, use, distribution or disclosure by others is strictly prohibited. If you are not the intended recipient (or authorized to receive for the recipient), please contact the sender or reply to Enron Corp. at enron.messaging.administration@enron.com and delete all copies of the message. This e-mail (and any attachments hereto) are not intended to be an offer (or an acceptance) and do not create or evidence a binding and enforceable contract between Enron Corp. (or any of its affiliates) and the intended recipient or any other party, and may not be relied on by anyone as the basis of a contract by estoppel or otherwise. Thank you.********************************************************************** - Mom s expenses.doc",
+        "mid": 29291,
+        "subject": "Undeliverable: Mom s funeral expenses"
+    },
+    {
+        "body": "Alert!You are receiving this message because you have an unresolved invoice in your iPayit in-box that is past due.  It is critical that you login to iPayit and take immediate action to resolve this invoice.Remember, you play an important role in ensuring that we pay our vendors on time.Tip!:  You must login to the system to forward this invoice to another user.To launch iPayit, click on the link below:http://iPayit.enron.comNote:  Your iPayit User ID and Password are your eHRonline/SAP Personnel ID and Password.First time iPayit user?  For training materials, click on the link below:http://isc.enron.com/site/doclibrary/user/default.aspNeed help?North America: ISC Call Center at (713) 345-4727.Europe: European Accounts Payable at +44-20-7783-7520.Asia-Pacific: Sydney Accounts Payable at +61-2-9229-2336",
+        "mid": 50496,
+        "subject": "Action Requested:  Past Due Invoice for User: JAMES STEFFES"
+    },
+    {
+        "body": "Const TOLERANCE = 0.1Const TOLERANCE2 = 0.5Sub CustomCurve()    Dim adder As Double    Dim i As Integer    Dim newValue As Double    Range(\"B28:B32\").Select    Selection.Copy    Selection.PasteSpecial Paste:=xlValues    Application.CutCopyMode = False    [b28].Select    For i = 2001 To 2005        adder = 1        While Abs([d28].Offset((i - 2001), 0)) > TOLERANCE            If Abs([d28].Offset((i - 2001), 0)) / [d28].Offset((i - 2001), 0) = _                    Abs(adder) / adder Then adder = adder / -10            newValue = [b28].Offset((i - 2001), 0) + adder            [b28].Offset((i - 2001), 0) = newValue        Wend    Next iEnd SubSub FlatLine()    Dim adder As Double    Dim i As Integer    Dim newValue As Double    Range(\"b28\").Select    Selection.Copy    Selection.PasteSpecial Paste:=xlValues    Application.CutCopyMode = False    For i = 2002 To 2005        [b29].Offset((i - 2002), 0) = \"=$B$28\"    Next i    adder = 1    While Abs([d33]) > TOLERANCE2        If Abs([d33]) / [d33] = Abs(adder) / adder Then adder = adder / -10        newValue = [b28] + adder        [b28] = newValue    WendEnd Sub",
+        "mid": 69110,
+        "subject": "Tonight s Homework"
+    },
+    {
+        "body": "Lara Glen @ x67330",
+        "mid": 70954,
+        "subject": "Mike Terraso/Internal Accountability Task Force"
+    },
+    {
+        "body": "Hi Ken,Many of my team appreciated your voice mail today.  I think they appreciated your candor about Andy, and more importantly, they appreciated your tone.  I think it would be helpful if you left frequent (weekly, or so) general updates to the degree you can.Mike and I had a very successful floor meeting today, and so many of our employees came up to us after to mention their appreciation of our having such a meeting.Your voice mails are great, and we need to use you more often.  I d love (and I m sure I speak for Mike on this) for you to attend one of our weekly staff meetings in the near future.Of course, if there is anything I can do to help, please let me know.Regards,Jeff",
+        "mid": 79902,
+        "subject": ""
+    },
+    {
+        "body": "If you are a participant in the Enron Corp. Savings Plan, please read this very important message.We understand that you are concerned about the timing of the move to a new Savings Plan administrator and the restricted access to your investment funds during the upcoming transition period scheduled to take place beginning at 3:00PM CST on October 26 and ending at 8:00AM CST on November 20.  We have been working with Hewitt and Northern Trust since July.  We understand your concerns and are committed to making this transition period as short as possible without jeopardizing the reconciliation of both the Plan in total or your account in particular.  Remember that the Enron Corp. Savings Plan is an investment vehicle for your long-term financial goals.  The Enron plan will continue to offer a variety of investment opportunities with different levels of risk.  As always, we advise you to review your overall investment strategy and carefully weigh the potential earnings of each investment choice against its risk before making investment decisions that are aligned with your long-term financial plans and your risk tolerance. For that reason, it is critical that ALL trades among your investment funds be completed by 3:00 PM CST Friday, October 26 before the transition period begins.",
+        "mid": 79974,
+        "subject": "IMPORTANT-To All Domestic Employees who Participate in the Enron Corp Savings Plan"
+    },
+    {
+        "body": "i HEA RYOU LOUD AND CLEAR.",
+        "mid": 80581,
+        "subject": "Re: SoCal Released Capacity"
+    },
+    {
+        "body": "Are you Ready2Go ?Have you ever experienced problems accessing the network remotely when traveling on business or when trying to work from home on your Enron laptop?  Would you like someone to test and customize the dial-up access on your laptop before you head out of town on your next trip? We have identified a need and are now supplying a new service for Corp and EBS employees and it s called Ready2Go !This new service has been established to test, modify, and update the dial-up software on your laptop.How it works:A calendar has been created on ITCentral at <http://itcentral.enron.com/Data/Services/Ready2Go>Go to the site and schedule a time that is convenient for you. Then, bring your laptop to our testing site, (either at 3AC105 or EB2268D).  We will examine your system, update your software (if needed) and even customize it for the next location you will be traveling to.  We ll also provide a training session in accessing the network remotely with your laptop.If you are interested in participating, simply access the web site and schedule an appointment.Thank you for your time.The Ready2Go Team",
+        "mid": 81258,
+        "subject": "Ready2Go"
+    }
+]
