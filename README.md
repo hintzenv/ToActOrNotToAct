@@ -1,0 +1,3 @@
+Please cite the paper "To Act Or Not To Act - Annotating and Classifying Email Regarding Necessary Action" by Veronika Hintzen & Alexander Fraser, as puplished in the proceedings to KONVENS 2019 when using this dataset or annotation guidelines. (correct citation will be updated after the conference)
+
+The annotation guidelines are available as a pdf file, the annotated data is seperated into several json files with the respective labels as the filename.
